@@ -40,7 +40,7 @@ namespace SomeUnitTests
 
         bool IsOdd(int value)
         {
-            return value % 2 == 1 || value % 2 == -1;
+            return (value % 2 + 2) % 2 == 1;
         }
     }
 }
